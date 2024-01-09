@@ -17,7 +17,14 @@ The `Binary/Preprocessing and Feature extraction/skin_lesion_extraction.py` scri
 * vignette_removal function: Takes an image and a threshold as input parameters. It then detects the threshold where darkening occurs and crops the image accordingly.
 * remove_hair function: Accept two input parameters i.e. an image and a structuring element. The function applies morphological black-hat filtering and thresholding operations to remove black hairs.
 
-### 2. Feature Extraction:
+### 2. Feature Extraction
+The `Binary/Preprocessing and Feature extraction/skin_lesion_feature_extraction.py` script conatains severaal defined functions for feature extration. These features are extracted using the ABCD rule, encompassing image `asymmetry,` `border` characteristics, `color` properties, and image `diameter.` These features are:
+* Intensity and Color Features: `grayscale intensity, rgb, and hsv`
+* Shape Features: `perimeter, area, circularity, compactness, and hu moments`
+* Gray Level Co-Occurrence Matrix: `energy, correlation, dissimilarity, homogeneity, contrast, and Angular Second Moment (ASM)`
+* Local Binary Pattern: `histogram of lbp values`
+
+### 3. Machine Learning
 
 
 ## Multiclass classification
