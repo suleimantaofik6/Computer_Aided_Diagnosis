@@ -3,3 +3,21 @@ This repository contain the code for the classification of skin lesions through 
 
 ## DATASET
 The challenge dataset includes images from the [HAM10000](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T), [BCN_20000](https://paperswithcode.com/dataset/bcn-20000), and [MSK_datasets](https://paperswithcode.com/dataset/msk), offering a rich variety of dermatological samples for analysis.
+
+## Project Division
+This project is in two parts:
+* Binary classification
+* Multiclass classification
+
+## Binary Classification Pipeline
+The folder `Binary` contains the codes for the binary aspect of this project. The task is to classify 15,000 skin lession images into benign or others. It is a balanced dataset and the code is structured into three pipeline:
+
+### 1. Data Preprocessing: Vignette Frame and Hair Removal
+The `Binary/Preprocessing and Feature extraction/skin_lesion_extraction.py` script conatains two functions needed for vignette frame (cropped) and Hair removal
+* vignette_removal function: Takes an image and a threshold as input parameters. It then detects the threshold where darkening occurs and crops the image accordingly.
+* remove_hair function: Accept two input parameters i.e. an image and a structuring element. The function applies morphological black-hat filtering and thresholding operations to remove black hairs.
+
+### 2. Feature Extraction:
+
+
+## Multiclass classification
