@@ -34,5 +34,4 @@ The `Binary/Best_model/Challenge1-Best_Model.ipynb` script conatains the code of
 * `AdaBoost`
 * `Naive Bayes`
 
-
-## Multiclass classification
+## Multiclass classification Pipeline
