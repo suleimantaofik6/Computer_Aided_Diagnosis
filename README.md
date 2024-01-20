@@ -18,13 +18,21 @@ The `Binary/Preprocessing and Feature extraction/skin_lesion_extraction.py` scri
 * remove_hair function: Accept two input parameters i.e. an image and a structuring element. The function applies morphological black-hat filtering and thresholding operations to remove black hairs.
 
 ### 2. Feature Extraction
-The `Binary/Preprocessing and Feature extraction/skin_lesion_feature_extraction.py` script conatains severaal defined functions for feature extration. These features are extracted using the ABCD rule, encompassing image `asymmetry,` `border` characteristics, `color` properties, and image `diameter.` These features are:
+The `Binary/Preprocessing and Feature extraction/skin_lesion_feature_extraction.py` script conatains several defined functions for feature extration. These features are extracted using the ABCD rule, encompassing image `asymmetry,` `border` characteristics, `color` properties, and image `diameter.` These features are:
 * Intensity and Color Features: `grayscale intensity, rgb, and hsv`
 * Shape Features: `perimeter, area, circularity, compactness, and hu moments`
 * Gray Level Co-Occurrence Matrix: `energy, correlation, dissimilarity, homogeneity, contrast, and Angular Second Moment (ASM)`
 * Local Binary Pattern: `histogram of lbp values`
 
 ### 3. Machine Learning
+The `Binary/Best_model/Challenge1-Best_Model.ipynb` script conatains the code of final model used for the challenge - an ensemble of XGBoost, and Random forest classifier while the `Binary/Other models folder contain codes for several machine learning (ML) models that was tried. In general, all the ML code used includes:
+* `XGBoost`
+* `Random Forest`
+* `SVM Classifier`
+* `knn_classifier`
+* `Logistic Regression`
+* `AdaBoost`
+* `Naive Bayes`
 
 
 ## Multiclass classification
