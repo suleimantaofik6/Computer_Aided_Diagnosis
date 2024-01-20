@@ -57,4 +57,5 @@ The folder `deep_learning_approach` contains the codes for the binary, and multi
 * `InceptionResNetV2`
 
 The best model was from the ensemble of `MobileNet`, and `InceptionResNetV2` and the resulting confusion matrix is shown below for the binary classification:
+
 ![alt text](CM_bestModel.png "Confusion Matrix")
