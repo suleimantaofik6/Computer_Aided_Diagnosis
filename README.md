@@ -56,6 +56,13 @@ The folder `deep_learning_approach` contains the codes for the binary, and multi
 * `RegNet`
 * `InceptionResNetV2`
 
-The best model was from the ensemble of `MobileNet`, and `InceptionResNetV2` and the resulting confusion matrix is shown below for the binary classification:
+### Deep Learning Approach using Monai
+The `deep_learning_approach/Other_Models_Binary_Classification/Monai_Binary_DL.ipynb` script conatains the implementation of several DenseNet pretrained models using Monai, trained on just 10 epoches.
+* `Monai DenseNet121`
+* `Monai DenseNet169`
+* `Monai DenseNet201`
+* `Monai DenseNet264`
+
+The best model for the deep learning approach was from the ensemble of `MobileNet`, and `InceptionResNetV2` and the resulting confusion matrix is shown below for the binary classification:
 
 ![alt text](CM_bestModel.png "Confusion Matrix")
