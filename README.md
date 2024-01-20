@@ -29,7 +29,7 @@ The `Binary/Best_model/Challenge1-Best_Model.ipynb` script conatains the code of
 * `XGBoost`
 * `Random Forest`
 * `SVM Classifier`
-* `knn_classifier`
+* `KNN Classifier`
 * `Logistic Regression`
 * `AdaBoost`
 * `Naive Bayes`
