@@ -1,4 +1,6 @@
 # CADx PROJECT: SKIN LESION CLASSIFICATION CHALLENGE USING CLASSICAL MACHINE LEARNING, AND DEEP LEARNING APPROACHES 
+![Project Status](https://img.shields.io/badge/Status-In%20Progress-brightgreen)
+
 This repository contain the code for the classification of skin lesions through classical machine-learning (ML) approach employing a range of ML classifier models, and deep learning approach to achieve the same task. The approach addresses both two-class and three-class problems, improving classification accuracy despite huge class imbalances and lesion variations.
 
 ## DATASET
@@ -10,7 +12,7 @@ The `skin_lesion_preprocessing.py` script conatains two functions needed for vig
 * vignette_removal function: Takes an image and a threshold as input parameters. It then detects the threshold where darkening occurs and crops the image accordingly.
 * remove_hair function: Accept two input parameters i.e. an image and a structuring element. The function applies morphological black-hat filtering and thresholding operations to remove black hairs.
 
-![alt text](preprocessing.png "Preprocessed_Images")
+![Preprocessed Images](preprocessing.png "Preprocessed_Images")
 
 ## Handling Imbalanced Data for the Multiclass challenge
 The methods used in handling class imbalance are:
