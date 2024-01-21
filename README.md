@@ -1,5 +1,5 @@
 # CADx PROJECT: SKIN LESION CLASSIFICATION CHALLENGE USING CLASSICAL MACHINE LEARNING, AND DEEP LEARNING APPROACHES 
-![Project Status](https://img.shields.io/badge/Status-In%20Progress-brightgreen)
+![Project Status](https://img.shields.io/badge/Status-In%20Completed-brightgreen)
 
 This repository contain the code for the classification of skin lesions through classical machine-learning (ML) approach employing a range of ML classifier models, and deep learning approach to achieve the same task. The approach addresses both two-class and three-class problems, improving classification accuracy despite huge class imbalances and lesion variations.
 
@@ -67,4 +67,4 @@ The `deep_learning_approach/Other_Models_Binary_Classification/Monai_Binary_DL.i
 
 The best model for the deep learning approach was from the ensemble of `MobileNet`, and `InceptionResNetV2` and the resulting confusion matrix is shown below for the binary classification:
 
-![alt text](CM_bestModel.png "Confusion Matrix")
+![Confusion Matrix](CM_bestModel.png "Confusion Matrix")
