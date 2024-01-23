@@ -8,7 +8,7 @@ The challenge dataset includes images from the [HAM10000](https://dataverse.harv
 
 
 ## Data Preprocessing: Vignette Frame and Hair Removal
-The `skin_lesion_preprocessing.py` script conatains two functions needed for vignette frame (cropped) and Hair removal
+The `skin_lesion_preprocessing.py` script contains two functions needed for vignette frame (cropped) and Hair removal
 * vignette_removal function: Takes an image and a threshold as input parameters. It then detects the threshold where darkening occurs and crops the image accordingly.
 * remove_hair function: Accept two input parameters i.e. an image and a structuring element. The function applies morphological black-hat filtering and thresholding operations to remove black hairs.
 
